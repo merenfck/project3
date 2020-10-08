@@ -30,6 +30,7 @@ export default class Signup extends Component {
           password: ''
         });
       } else {
+        console.log("here")
         this.props.setUser(data);
         this.props.history.push('/projects');
       }
