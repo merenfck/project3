@@ -12,6 +12,7 @@ const handleLogout = props => {
 const Navbar = props => {
   return (
     <Nav className='nav justify-content-end' bg='primary'>
+      <h1> this is the header</h1>
       {props.user && <Nav.Brand>Welcome, {props.user.username}</Nav.Brand>}
       <Nav.Brand>
         <Link to='/'>Home</Link>

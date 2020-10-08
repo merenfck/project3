@@ -53,6 +53,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='App' >
+        <h1> Name</h1>
         <Navbar user={this.state.user} setUser={this.setUser} />
 
         
